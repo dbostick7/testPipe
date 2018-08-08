@@ -1,5 +1,5 @@
 pipeline {
-    
+    agent any
      triggers {
         pollSCM('*/5 * * * 1-5') //sets refresh at 1-5 minutes
     }
